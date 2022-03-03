@@ -15,6 +15,9 @@ from wordcloud import WordCloud
 
 import nltk
 import nltk.corpus 
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 def app():
 
