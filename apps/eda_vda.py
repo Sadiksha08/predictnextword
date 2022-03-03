@@ -13,6 +13,9 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 from wordcloud import WordCloud
 
+import nltk
+import nltk.corpus 
+
 def app():
 
     
